@@ -1,0 +1,71 @@
+{
+  "nodes": [
+    {
+      "id": "n1",
+      "type": "text",
+      "x": -520,
+      "y": -60,
+      "width": 220,
+      "height": 80,
+      "data": {
+        "text": "Key signals\n- ingestion rate\n- error rate\n- processing latency\n- storage saturation"
+      }
+    },
+    {
+      "id": "n2",
+      "type": "text",
+      "x": -200,
+      "y": -60,
+      "width": 200,
+      "height": 70,
+      "data": {
+        "text": "SLOs\nAvailability 99.9%\nLatency P95 < 5s"
+      }
+    },
+    {
+      "id": "n3",
+      "type": "text",
+      "x": 80,
+      "y": -60,
+      "width": 230,
+      "height": 70,
+      "data": {
+        "text": "Alert routing\nSev1: immediate\nSev2: 30 min\nSev3: daily"
+      }
+    },
+    {
+      "id": "n4",
+      "type": "text",
+      "x": -200,
+      "y": 80,
+      "width": 200,
+      "height": 50,
+      "data": {
+        "text": "Dashboards\nOps visibility"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "fromNode": "n1",
+      "fromSide": "right",
+      "toNode": "n2",
+      "toSide": "left"
+    },
+    {
+      "id": "e2",
+      "fromNode": "n2",
+      "fromSide": "right",
+      "toNode": "n3",
+      "toSide": "left"
+    },
+    {
+      "id": "e3",
+      "fromNode": "n2",
+      "fromSide": "bottom",
+      "toNode": "n4",
+      "toSide": "top"
+    }
+  ]
+}

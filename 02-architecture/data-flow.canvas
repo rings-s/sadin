@@ -1,0 +1,65 @@
+{
+	"nodes":[
+		{
+			"id":"n1",
+			"type":"text",
+			"x":-520,
+			"y":-40,
+			"width":170,
+			"height":50,
+			"data":{"text":"Device"}
+		},
+		{
+			"id":"n2",
+			"type":"text",
+			"x":-300,
+			"y":-40,
+			"width":190,
+			"height":70,
+			"data":{"text":"Ingestion\n(auth + schema)"}
+		},
+		{
+			"id":"n3",
+			"type":"text",
+			"x":-60,
+			"y":-40,
+			"width":200,
+			"height":70,
+			"data":{"text":"Processing\n(normalize + enrich)"}
+		},
+		{
+			"id":"n4",
+			"type":"text",
+			"x":200,
+			"y":-40,
+			"width":200,
+			"height":60,
+			"data":{"text":"Storage"}
+		},
+		{
+			"id":"n5",
+			"type":"text",
+			"x":460,
+			"y":-40,
+			"width":220,
+			"height":70,
+			"data":{"text":"Alerts + APIs\n(dashboards)"}
+		},
+		{
+			"id":"n6",
+			"type":"text",
+			"x":-60,
+			"y":120,
+			"width":210,
+			"height":60,
+			"data":{"text":"DLQ\n(invalid payloads)"}
+		}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"n1","fromSide":"right","toNode":"n2","toSide":"left"},
+		{"id":"e2","fromNode":"n2","fromSide":"right","toNode":"n3","toSide":"left"},
+		{"id":"e3","fromNode":"n3","fromSide":"right","toNode":"n4","toSide":"left"},
+		{"id":"e4","fromNode":"n4","fromSide":"right","toNode":"n5","toSide":"left"},
+		{"id":"e5","fromNode":"n2","fromSide":"bottom","toNode":"n6","toSide":"top"}
+	]
+}

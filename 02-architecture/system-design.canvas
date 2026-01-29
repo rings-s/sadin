@@ -1,0 +1,73 @@
+{
+	"nodes":[
+		{
+			"id":"n1",
+			"type":"text",
+			"data":{"text":"Devices\n(firmware + protocol)"},
+			"x":-540,
+			"y":-60,
+			"width":180,
+			"height":60,
+			"text":""
+		},
+		{
+			"id":"n2",
+			"type":"text",
+			"data":{"text":"Ingestion\n- auth\n- validate\n- rate limit"},
+			"x":-300,
+			"y":-60,
+			"width":200,
+			"height":80,
+			"text":""
+		},
+		{
+			"id":"n3",
+			"type":"text",
+			"data":{"text":"Processing\n- normalize\n- enrich\n- alert eval"},
+			"x":-40,
+			"y":-60,
+			"width":220,
+			"height":80,
+			"text":""
+		},
+		{
+			"id":"n4",
+			"type":"text",
+			"data":{"text":"Storage\n- time-series\n- relational"},
+			"x":240,
+			"y":-60,
+			"width":220,
+			"height":70,
+			"text":""
+		},
+		{
+			"id":"n5",
+			"type":"text",
+			"data":{"text":"API Layer\n(admin + ops)"},
+			"x":520,
+			"y":-60,
+			"width":180,
+			"height":60,
+			"text":""
+		},
+		{
+			"id":"n6",
+			"type":"text",
+			"data":{"text":"Observability\nlogs + metrics + traces"},
+			"x":-40,
+			"y":120,
+			"width":220,
+			"height":70,
+			"text":""
+		}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"n1","fromSide":"right","toNode":"n2","toSide":"left"},
+		{"id":"e2","fromNode":"n2","fromSide":"right","toNode":"n3","toSide":"left"},
+		{"id":"e3","fromNode":"n3","fromSide":"right","toNode":"n4","toSide":"left"},
+		{"id":"e4","fromNode":"n4","fromSide":"right","toNode":"n5","toSide":"left"},
+		{"id":"e5","fromNode":"n2","fromSide":"bottom","toNode":"n6","toSide":"top"},
+		{"id":"e6","fromNode":"n3","fromSide":"bottom","toNode":"n6","toSide":"top"},
+		{"id":"e7","fromNode":"n4","fromSide":"bottom","toNode":"n6","toSide":"top"}
+	]
+}

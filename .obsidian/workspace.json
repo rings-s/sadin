@@ -1,0 +1,224 @@
+{
+  "main": {
+    "id": "5ed31be2d5856a12",
+    "type": "split",
+    "children": [
+      {
+        "id": "9389b90f6ecd57bb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "57cd7eec20a4bb89",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "03-data/Data Model.canvas",
+                "viewState": {
+                  "x": 268.07594547036933,
+                  "y": 519.8182930993993,
+                  "zoom": -1.7999999999999998
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Data Model"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3b1238dc2c8cd94f",
+    "type": "split",
+    "children": [
+      {
+        "id": "f915a4d3fa13b2d1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5d12a9e557b0bcd8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": true
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "3773ee439ce64721",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "c699004b54f9e869",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "00b1076282481194",
+    "type": "split",
+    "children": [
+      {
+        "id": "24e1a999c4e54cfd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "37a6638d0619d8a3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "03-data/Data Model.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Data Model"
+            }
+          },
+          {
+            "id": "6f4189450cf25d97",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "03-data/Data Model.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Data Model"
+            }
+          },
+          {
+            "id": "279fe13038a4342a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "956ba03c3bdf3d59",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "05c8c4236a0991e3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "03-data/Data Model.canvas",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Data Model"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "57cd7eec20a4bb89",
+  "lastOpenFiles": [
+    "02-architecture/system-design.canvas",
+    "03-data/Data Model.canvas",
+    "README.md",
+    "02-architecture/data-flow.canvas",
+    "07-operations/monitoring.canvas",
+    "05-workflows/user-flows.canvas",
+    "Untitled.canvas",
+    "02-architecture/system-design.md",
+    "10-compliance/ksa-regulations.md",
+    "10-compliance/data-privacy.md",
+    "10-compliance/audit-notes.md",
+    "09-integrations/third-parties.md",
+    "09-integrations/iot-devices.md",
+    "09-integrations/external-apis.md",
+    "08-decisions/tradeoffs.md",
+    "08-decisions/decision-log.md",
+    "07-operations/monitoring.md",
+    "07-operations/incidents.md",
+    "07-operations/environments.md",
+    "07-operations/deployment.md",
+    "01-requirements/functional.md",
+    "01-requirements/constraints.md",
+    "01-requirements/assumptions.md",
+    "00-overview/vision.md",
+    "00-overview/stakeholders.md",
+    "00-overview/objectives.md",
+    "06-tasks/sprint-next.md",
+    "03-data/Data Model.md",
+    "02-architecture/security.md",
+    "02-architecture/tech-stack.md",
+    "02-architecture/data-flow.md",
+    "09-integrations/Untitled"
+  ]
+}

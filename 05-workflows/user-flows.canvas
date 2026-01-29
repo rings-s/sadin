@@ -1,0 +1,71 @@
+{
+  "nodes": [
+    {
+      "id": "n1",
+      "type": "text",
+      "x": -520,
+      "y": -80,
+      "width": 240,
+      "height": 90,
+      "data": {
+        "text": "Tenant onboarding\n1) Create tenant + admin\n2) Configure device types\n3) Verify ingestion"
+      }
+    },
+    {
+      "id": "n2",
+      "type": "text",
+      "x": -200,
+      "y": -80,
+      "width": 240,
+      "height": 90,
+      "data": {
+        "text": "Device provisioning\n1) Register device\n2) Share credentials\n3) First telemetry"
+      }
+    },
+    {
+      "id": "n3",
+      "type": "text",
+      "x": 120,
+      "y": -80,
+      "width": 260,
+      "height": 90,
+      "data": {
+        "text": "Monitoring + alerts\n1) Set rules\n2) Evaluate conditions\n3) Notify + investigate"
+      }
+    },
+    {
+      "id": "n4",
+      "type": "text",
+      "x": -200,
+      "y": 60,
+      "width": 240,
+      "height": 50,
+      "data": {
+        "text": "Common success criteria\nClear health + alerts"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "fromNode": "n1",
+      "fromSide": "right",
+      "toNode": "n2",
+      "toSide": "left"
+    },
+    {
+      "id": "e2",
+      "fromNode": "n2",
+      "fromSide": "right",
+      "toNode": "n3",
+      "toSide": "left"
+    },
+    {
+      "id": "e3",
+      "fromNode": "n2",
+      "fromSide": "bottom",
+      "toNode": "n4",
+      "toSide": "top"
+    }
+  ]
+}
